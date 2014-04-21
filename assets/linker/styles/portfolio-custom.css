@@ -1,10 +1,12 @@
+/* For the initial landing on homepage */
 .landing-top {
-  height: 600px;
+  height: 650px;
   background-image:url('../../images/shepherds-purse.jpg');
   background-size: cover;
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
   color: white;
+  margin-bottom: 0px;
 }
 
 .jumbotron p {
@@ -21,3 +23,39 @@
   background-color: #5A5A32;
   border-color:white;
 }
+
+/* Styling for second row of homepage */
+
+.landing-row-two {
+  height: 650px;
+  background-color: #EBEAD3;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.landing-row-two h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.landing-row-two p {
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.landing-row-two img {
+  height: 200px;
+  width: 200px;
+  margin-top: 60px;
+  background-image:url('../../images/Kathryn-pic.jpg');
+  background-size: cover;
+  -webkit-border-radius: 100px 100px 100px 100px;
+  border-radius: 100px 100px 100px 100px;
+}
+
+
+
