@@ -1,0 +1,23 @@
+.landing-top {
+  height: 600px;
+  background-image:url('../../images/shepherds-purse.jpg');
+  background-size: cover;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+}
+
+.jumbotron p {
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+.btn-primary {
+  background-color: #696833;
+  border-color: white;
+}
+
+.btn-primary:hover {
+  background-color: #5A5A32;
+  border-color:white;
+}
