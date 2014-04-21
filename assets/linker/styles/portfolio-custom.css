@@ -110,6 +110,18 @@
   margin-top: 150px;
 }
 
+.bottom-row {
+  text-align: center;
+  background-color: #696833;
+  color: white;
+  height: 200px;
+}
+
+.bottom-row p {
+  margin-top: 80px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 26px;
+}
 
 
 
