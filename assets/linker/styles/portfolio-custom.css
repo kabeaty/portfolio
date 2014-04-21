@@ -24,22 +24,22 @@
   border-color:white;
 }
 
-/* Styling for About section of homepage */
+/* Styling for sections on homepage */
 
-.landing-row-two {
+.landing-row {
   height: 650px;
   background-color: #EBEAD3;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 
-.landing-row-two h1 {
+.landing-row h1 {
   font-weight: 700;
   font-size: 40px;
   margin-top: 80px;
 }
 
-.landing-row-two p {
+.landing-row p {
   margin-top: 60px;
   font-size: 24px;
   font-weight: 400;
@@ -47,7 +47,12 @@
   margin-left: 200px;
 }
 
-.landing-row-two img {
+/* Custom styling for sections on homepage */
+#row-two {
+  background-color: #EDEDE8;
+}
+
+#kathryn-pic {
   height: 200px;
   width: 200px;
   margin-top: 60px;
@@ -56,11 +61,6 @@
   -webkit-border-radius: 100px 100px 100px 100px;
   border-radius: 100px 100px 100px 100px;
 }
-
-/* Styling for Skills section of homepage */
-
-
-
 
 
 
