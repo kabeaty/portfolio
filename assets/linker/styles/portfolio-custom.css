@@ -43,8 +43,8 @@
   margin-top: 60px;
   font-size: 20px;
   font-weight: 400;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 /* Custom styling for sections on homepage */
@@ -101,8 +101,8 @@
   font-size: 20px;
   margin-top: 50px;
   margin-bottom: 70px;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .project-links {
