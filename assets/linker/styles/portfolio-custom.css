@@ -36,15 +36,15 @@
 .landing-row h1 {
   font-weight: 700;
   font-size: 40px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .general-para {
   margin-top: 60px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 /* Custom styling for sections on homepage */
@@ -60,7 +60,8 @@
 #kathryn-pic {
   height: 200px;
   width: 200px;
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-bottom: 50px;
   background-image:url('../../images/Kathryn-pic.jpg');
   background-size: cover;
   -webkit-border-radius: 100px 100px 100px 100px;
@@ -71,15 +72,37 @@
   margin-top: 120px;
 }
 
-#projects-row {
-  min-height: 750px;
+#skills-para {
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+#project-title-row {
+  height: 80px;
+  background-color: #EBEAD3;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#project-title-row h1 {
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project-row {
+  min-height: 500px;
+  background-color: #EBEAD3;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .project-para {
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-bottom: 70px;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 
 .project-links {
@@ -91,17 +114,15 @@
 }
 
 #art-map {
-  height: 300px;
-  width: 400px;
-  margin-top: 60px;
+  height: 400px;
+  width: 600px;
   background-image:url('../../images/ArtMap-Homepage.png');
   background-size: cover;
 }
 
 #inspiral-app {
-  height: 300px;
-  width: 400px;
-  margin-top: 60px;
+  height: 400px;
+  width: 600px;
   background-image:url('../../images/Inspiral-Homepage.png');
   background-size: cover;
 }
