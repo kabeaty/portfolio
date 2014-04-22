@@ -77,21 +77,32 @@
   margin-top: 80px;
 }
 
-#projects-row {
-  min-height: 710px;
+#project-title-row {
+  height: 80px;
+  background-color: #EBEAD3;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
-#projects-row h1 {
-  margin-top: 70px;
+#project-title-row h1 {
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project-row {
+  min-height: 500px;
+  background-color: #EBEAD3;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .project-para {
-  float:left;
   font-size: 20px;
-  margin-top: 60px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 
 .project-links {
@@ -103,20 +114,15 @@
 }
 
 #art-map {
-  float:left;
-  height: 300px;
-  width: 400px;
-  margin-top: 60px;
+  height: 400px;
+  width: 600px;
   background-image:url('../../images/ArtMap-Homepage.png');
   background-size: cover;
 }
 
 #inspiral-app {
-  float:left;
-  height: 300px;
-  width: 400px;
-  margin-left: 30px;
-  margin-top: 10px;
+  height: 400px;
+  width: 600px;
   background-image:url('../../images/Inspiral-Homepage.png');
   background-size: cover;
 }
