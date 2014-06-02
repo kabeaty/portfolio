@@ -1,3 +1,5 @@
+@import 'bootstrap'
+
 /* Set up variables for fonts and colors */
 $primary-font: 'Shadows Into Light', cursive
 $second-font: 'Open Sans', sans-serif
@@ -29,10 +31,11 @@ $dark-olive: #5A5A32
   background-size: cover
   font-family: $primary-font
   color: white
-  margin-bottom: 0.000em
+  margin-bottom: 0em
   @include center
 
 .jumbotron
+  padding-top: 5.315em
   p
     font-size: 1.625em
     margin-bottom: 3.125em
@@ -52,41 +55,42 @@ $dark-olive: #5A5A32
   @include center
   h1
     font-weight: 700
-    font-size: 2.500em
+    font-size: 2.5em
     margin-top: 3.125em
 
 .general-para
-  margin-top: 3.750em
-  font-size: 1.250em
+  margin-top: 3.75em
+  font-size: 1.25em
   font-weight: 400
   margin-right: 10%
   margin-left: 10%
 
 /* Styling for smaller sections on homepage */
 .top-row
-  min-height: 43.750em
+  min-height: 43.75em
 
 #row-two
   background-color: $light-green
+  @include center
 
 #kathryn-pic
-  height: 12.500em
-  width: 12.500em
-  margin-top: 2.500em
-  margin-bottom: 3.125em
+  height: 12.5em
+  width: 12.5em
+  margin-top: 4.5em
+  margin-bottom: 5.125em
   background-image: url('../../images/Kathryn-pic.jpg')
   background-size: cover
-  @include border-radius(6.250em)
+  @include border-radius(6.25em)
 
 #skills-title
-  margin-top: 7.500em
+  margin-top: 3.5em
 
 #skills-para
-  font-size: 1.500em
-  margin-top: 5.000em
+  font-size: 1.5em
+  margin-top: 5em
 
 #project-title-row
-  height: 5.000em
+  height: 5em
   background-color: $tan
   @include center
   font-family: $second-font
@@ -96,13 +100,13 @@ $dark-olive: #5A5A32
     margin-bottom: 3.125em
 
 .project-row
-  min-height: 31.250em
+  min-height: 31.25em
   background-color: $tan
   font-family: $second-font
   @include center
 
 .project-para
-  font-size: 1.250em
+  font-size: 1.25em
   margin-top: 3.125em
   margin-bottom: 4.375em
   margin-right: 10%
@@ -119,20 +123,29 @@ $dark-olive: #5A5A32
 #inspiral-app
   @include project-image('../../images/Inspiral-Homepage.png')
 
+.social
+  margin-top: 1.375em
+  margin-bottom: 1em
+
 .contact
-  margin-top: 9.375em
+  margin-bottom: 1.375em
+
+.contact-text
+  font-family: $second-font
 
 .fa
-  font-size: 6.250em
+  font-size: 6.25em
   color: $medium-olive
+  &:hover
+    color: $dark-olive
 
 .bottom-row
   @include center
   background-color: $medium-olive
   color: white
-  height: 12.500em
+  height: 17.5em
   p
-    margin-top: 5.000em
+    margin-top: 5em
     font-family: $primary-font
     font-size: 1.625em
 
